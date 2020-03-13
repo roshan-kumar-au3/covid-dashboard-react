@@ -45,7 +45,7 @@ const Map = () => {
       mapStyle="mapbox://styles/mapbox/dark-v9"
       maxZoom={10}
       onViewportChange={setViewport}
-      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+      mapboxApiAccessToken="pk.eyJ1Ijoicm9zaGFua3VuMDkiLCJhIjoiY2s3b203YTR5MDhqdzNlcHBrbG5qMjhmciJ9.H_ZpfzDQrCRYIs_rmX73eg"
     >
 
       <MapControls />
