@@ -1,0 +1,34 @@
+.mapboxgl-popup-close-button {
+    padding: 4px 8px;
+}
+
+.mapboxgl-popup-content h2 {
+    border-bottom: 1px solid #ededed;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin: 6px 0 15px;
+    color: #606060;
+}
+
+.country-region-statistics {
+    color: #757575;
+    font-size: 12px;
+    width: 100%;
+}
+
+.country-region-statistics th {
+    font-size: 11px;
+    line-height: 2.181818182;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.country-region-statistics td {
+    padding: 7px 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
