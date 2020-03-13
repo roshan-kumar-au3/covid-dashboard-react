@@ -50,7 +50,7 @@ const Map = () => {
 
       <MapControls />
 
-      <Markers data={mapData} onClick={openPopup} />
+      <Markers data={mapData} onClick={openPopup} onMouseOver={openPopup} onFocus={openPopup} />
 
       <CountryInformation country={selectedCountryRegion} onClick={closePopup} />
 
