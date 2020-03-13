@@ -1,5 +1,5 @@
 const listMapData = async () => {
-  const response = await fetch('http://localhost:4000/map-data');
+  const response = await fetch('https://secret-beach-58222.herokuapp.com/map-data');
 
   if (response.status >= 200 && response.status < 300) {
     return response.json();
